@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    android:layout_margin="4dp"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_margin="5dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="This is a sample content"/>
+
+    <TextView
+        android:id="@+id/txAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#799C27B0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textAlignment="textEnd"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="Ashish Pradhan"/>
+
+
+
+</LinearLayout>
